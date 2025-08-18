@@ -16,7 +16,7 @@ public class AddNumbers {
         System.out.println("Enter third number ::");
         String number3 = scanner.nextLine();
 
-        Integer sum = Integer.valueOf(number1) + Integer.valueOf(number2) - Integer.valueOf(number3);
+        Integer sum = Integer.valueOf(number1) + Integer.valueOf(number2) + Integer.valueOf(number3);
 
         System.out.println(sum);
 
